@@ -28,6 +28,31 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+    .background-logo {
+      width: 100%;
+      height: 100vh;
+      background: url("assets/img/infernos-logo.png") top right no-repeat;
+      background-size: contain;
+      position: relative;
+    }
+
+    @media (min-width: 992px) {
+      .background-logo {
+        padding-left: 160px;
+      }
+    }
+
+    .background-logo:before {
+      content: "";
+      background: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  </style>
   <!-- =======================================================
   * Template Name: MyResume - v2.2.0
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
@@ -44,7 +69,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
-    <nav class="nav-menu">
+    <!-- <nav class="nav-menu">
       <ul>
         <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
@@ -55,7 +80,7 @@
         <li><a href="#sponsor"><i class="bx bx-server"></i> <span>Sponsor</span></a></li>
         <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
-    </nav><!-- .nav-menu -->
+    </nav>.nav-menu -->
 
   </header><!-- End Header -->
 
@@ -476,7 +501,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>BANGALORE PREMIER CUP</h2>
+          <h2> SPONSORSHIP DETAILS – WHAT WE NEED?</h2>
           <p>
             <strong>Infernos Cricket Club (ICC),</strong> we are one of the finest cricket club in Bangalore with 35+ passionate players. With the right 
             kind of sponsorships, we intend to get better and grow bigger. We are a three and half year old team in Bangalore, 
@@ -494,9 +519,8 @@
               <li>One team kit with two pairs of pads, gloves, abdomen guard, thigh pad, helmet & one English willow bat</li>
             </ul>
           </p>
-
-          <p><strong>Cost: INR. 48K for jerseys and 12K for team kit.</strong></p>
         </div>
+        <div class="row"><p style="font-size: 18px;"><strong>Sponsorship Cost: INR. 48K for jerseys and 12K for team kit.</strong></p></div>
         <div class="row">
           <div class="col-lg-4">
             <!-- <img src="assets/img/profile-img.jpg" class="img-fluid" alt=""> -->
@@ -507,7 +531,7 @@
     </section><!-- End sponsor Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -657,15 +681,15 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>ON-FIELD SUCCESS</h2>
-          <p>We are cricket enthusiasts and we love this sport as it is near to everyone's heart because it is a journey of self discovery. You hardly know yourself unless you learn to appreciate cricket. The taste of defeat, the delight in winning, the heart breaks, losing on the last ball, managing a draw, battling and battling till you pass out. Ah! Life is easy, Cricket is hard ;)</p>
+          <h2>ServicesS</h2>
+          <p>sdfkhgwugf</p>
         </div>
 
         <div class="row">
@@ -751,10 +775,10 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!-- <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -821,10 +845,10 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact background-logo">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -838,56 +862,24 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Btm 2nd stage, Bangalore, KA</p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>infernoscricketclub@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+91 97398 93893 | +91 98803 53701</p>
               </div>
 
             </div>
 
           </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
         </div>
 
       </div>
@@ -898,24 +890,21 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Brandon Johnson</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div>
+      <!-- <h3>Brandon Johnson</h3> -->
+      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p> -->
+      <!-- <div class="copyright">
+        &copy; Copyright <strong><span>Infernos</span></strong>. All Rights Reserved
+      </div> -->
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="">Kritarth billorey</a>
+      </div>
+      <br>
+      <div class="social-links">
+        <a href="https://twitter.com/krtrth" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/krtrth/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com/krtrth" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+        <a href="https://www.linkedin.com/in/krtrth/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->
